@@ -1,0 +1,10 @@
+/Library/
+/Temp/
+/HololensToMaya.csproj
+/HololensToMaya.Editor.csproj
+/HololensToMaya.Plugins.csproj
+/HololensToMaya.sln
+
+/Builds/
+/Packages/
+/.vs/
