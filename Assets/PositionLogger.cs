@@ -6,12 +6,12 @@ public class PositionLogger : MonoBehaviour
 {
 	void Start ()
     {
-        Debug.Log("Begin Position Logger");
+        Debug.Log("Begin Logger Session");
 	}
 	
-	void Update ()
+	void FixedUpdate ()
     {
-        string stringSuffix = "Logger for Andy";
+        string stringSuffix = "Log Entry";
         string timePart = Time.frameCount.ToString();
         string positionPart = transform.position.x + " " + transform.position.y + " " + transform.position.z;
         string rotationPart = transform.rotation.eulerAngles.x + " " + transform.rotation.eulerAngles.y + " " + transform.rotation.eulerAngles.z;
