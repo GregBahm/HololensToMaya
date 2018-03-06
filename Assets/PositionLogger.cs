@@ -9,7 +9,7 @@ public class PositionLogger : MonoBehaviour
         Debug.Log("Begin Logger Session");
 	}
 	
-	void FixedUpdate ()
+	void Update ()
     {
         string stringSuffix = "Log Entry";
         string timePart = Time.frameCount.ToString();
